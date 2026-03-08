@@ -38,7 +38,6 @@ body::selection {
     transition: 0.25s;
     opacity: 0.5;
     max-height: 1000px;
-    overflow: auto; 
     transform: scale(0.9); 
     max-height: 80vh;
 }
@@ -117,6 +116,7 @@ button:active{
 
 
 #konacanPass {
+    min-width: 500px;
     margin-top: 25px;
     font-size: 1.8em;
     word-break: break-all;
