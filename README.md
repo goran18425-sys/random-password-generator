@@ -38,3 +38,6 @@ The user can generate secure random passwords by selecting the desired character
 ## Author
 
 Software engineering student at ITS
+
+<img width="1000" height="1000" alt="Screenshot from 2026-03-08 17-29-22" src="https://github.com/user-attachments/assets/6f616078-33da-42cf-b4df-dd2a4b257eb6" />
+
