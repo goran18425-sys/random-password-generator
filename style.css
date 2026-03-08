@@ -1,0 +1,140 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-image: url("matrix-program-falling-data-illustration-green-code-black-3508x2480-3292.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+
+}
+
+body::selection {
+  background:rgb(0, 199, 0);
+  color: black;  
+}
+#container {
+    border-radius: 25px;
+    margin: 50px auto;
+    text-align: center;
+    color: rgb(0, 199, 0);
+    max-width: 1000px;
+    padding: 20px;
+    transition: 0.25s;
+    opacity: 0.5;
+    max-height: 1000px;
+    overflow: auto; 
+    transform: scale(0.9); 
+    max-height: 80vh;
+}
+
+#container:hover {
+    transform: scale(1);
+    opacity: 1;
+    border: 1px solid rgb(0, 199, 0);
+    box-shadow: 0 0 5px rgb(0, 199, 0), 0 0 20px rgb(0, 255, 0);
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(0, 199, 0);
+    text-shadow: 0 0 5px rgb(0, 199, 0);
+}
+
+
+#duzina,#konacanPass{
+    width: 250px;
+    color: rgb(0, 199, 0);
+    background-color: black;
+    font-size: 1em;
+    padding: 5px;
+    transition: 0.25s;
+    border: 1px solid rgb(0, 199, 0);
+    text-align: center;
+}
+
+#konacanPass{
+    max-width: 500px;
+    border: 1px solid rgb(0, 199, 0);
+}
+
+input[type="checkbox"] {
+    accent-color: rgb(0, 199, 0); 
+}
+
+#checkbox {
+    display: inline-block;  
+    text-align: left;       
+    margin: 0 auto;
+}
+
+
+
+button{
+    background-color: black;
+    font-size: 1em;
+    color: rgb(0, 199, 0);
+    font-weight: bold;
+    transition: 0.25s;
+    margin-top: 15px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: 1px solid rgb(0, 199, 0);
+
+}
+
+button:hover{
+    background-color: rgb(0, 199, 0);
+    color: black;
+}
+
+button:hover,
+#duzina:focus,
+#konacanPass:focus {
+    box-shadow: 0 0 10px rgb(0, 199, 0),
+                0 0 20px rgba(0, 199, 0, 0.6);
+}
+
+button:active{
+    transform: scale(0.98);
+}
+
+
+#konacanPass {
+    margin-top: 25px;
+    font-size: 1.8em;
+    word-break: break-all;
+    text-shadow: 0 0 5px rgb(0, 199, 0);
+}
+
+
+
+#strength {
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#ispisatikraj{
+    font-size: 0.8em;
+    font-style: italic;
+    text-decoration: underline;
+}
+

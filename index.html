@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Password</title>
+</head>
+<body>
+    <div id="container">
+        <h1><a href="#duzina">RANDOM PASSWORD GENERATOR</a></h1>
+        <label for="duzina">Unesi broj karaktera passworda:</label>
+        <input type="number" name="duzina" id="duzina" value="1" min="1">
+        <br>
+        <br>
+        <div id="checkbox">
+            <input type="checkbox" name="malaSlova" id="malaSlova">
+            <label for="malaSlova">Ukljucuje mala slova</label>
+            <br>
+            <br>
+            <input type="checkbox" name="velikaSlova" id="velikaSlova">
+            <label for="velikaSlova">Ukljucuje velika slova</label>
+            <br>
+            <br>
+            <input type="checkbox" name="brojevi" id="brojevi">
+            <label for="brojevi">Ukljucuje brojeve</label>
+            <br>
+            <br>
+            <input type="checkbox" name="simboli" id="simboli">
+            <label for="simboli">Ukljucuje simbole</label>
+        </div>
+        <br>
+        <br>
+        <button id="potvrdi">POTVRDI</button>
+        <h3 id="konacanPass0"></h3>
+        <input type="text" id="konacanPass" placeholder="password">
+        <br>
+        <br>
+        <p id="strength"></p>
+        <button id="copy">COPY</button>
+
+        <br>
+        <br>
+        <p id="ispisatikraj"></p>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
