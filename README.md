@@ -39,5 +39,7 @@ The user can generate secure random passwords by selecting the desired character
 
 Software engineering student at ITS
 
+## Screenshots
+
 <img width="1000" height="1000" alt="Screenshot from 2026-03-08 17-59-23" src="https://github.com/user-attachments/assets/1441424d-f479-495a-8540-d757de3c6cd0" />
 
